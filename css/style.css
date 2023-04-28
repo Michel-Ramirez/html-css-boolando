@@ -225,6 +225,8 @@ footer{
 
 .legal-info a{
     color: white;
+    font-size: 0.9rem;
+    padding-right: 5px;
 }
 
 .agency-name{
@@ -233,10 +235,23 @@ footer{
 }
 
 .container-footer{
+    height: 100%;
     justify-content: space-between;
+    align-items: center;
+    
 }
 
 .social span{
     display: block;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
 
+.agency-name, .social span{
+    padding-bottom: 10px;
+}
+
+.social i{
+    font-size: 1.5rem;
+    padding-right: 8px;
 }
