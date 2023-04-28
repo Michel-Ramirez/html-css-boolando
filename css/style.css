@@ -20,6 +20,10 @@ a {
 
 /* !UTILITY */
 
+.d-block{
+    display: block;
+}
+
 .d-flex{
     display: flex;
 }
@@ -126,18 +130,17 @@ a {
     content: url(../img/3b.webp);
 }
 
-
-
-
-
-
-
-
 #tee-unisex:hover{
 content: url(../img/4b.webp);
 }
 
+#stripe-bodice:hover{
+    content:url(../img/5b.webp);
+}
 
+#maglione-black:hover{
+    content: url(../img/6b.webp);
+}
 
 /* !LAYOUT */
 
@@ -161,7 +164,8 @@ header{
 }
 
 .logo img{
-    height: 40px;
+    height: 30px;
+    display: block;  /* ALIGN LOGO */
 }
 
 .department a {
@@ -178,8 +182,11 @@ header{
 
 /* MAIN - CATALOG */
 
+.container-catalog{
+    gap: 20px;
+}
+
 .container-img-catalog {
-    width: calc(100% / 3);
     position: relative;
     cursor: pointer;
 }
@@ -202,4 +209,34 @@ header{
 
 .info-cat{
     padding-bottom: 50px;
+}
+
+.card{
+    width: calc(100% / 3);
+}
+
+/* FOOTER */
+
+footer{
+    height: 100px;
+    background-color: #1A1A1A;
+    color: white;
+}
+
+.legal-info a{
+    color: white;
+}
+
+.agency-name{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.container-footer{
+    justify-content: space-between;
+}
+
+.social span{
+    display: block;
+
 }
