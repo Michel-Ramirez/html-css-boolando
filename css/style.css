@@ -1,0 +1,59 @@
+/* !RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* !GENERICS */
+
+a {
+    text-decoration: none;
+}
+
+
+/* !UTILITY */
+
+
+.d-flex{
+    display: flex;
+}
+
+.c-center{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+    background-color: #FF6900;
+    align-items: center;
+}
+
+.container-header{
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 40px;
+}
+
+.department a {
+    color: white;
+    font-size: 1.3;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.section-user i {
+    padding: 0 5px;
+    color: white;
+}
