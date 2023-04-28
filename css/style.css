@@ -15,8 +15,18 @@ body{
 
 a {
     text-decoration: none;
+    color: black;
 }
 
+.department a:hover, .legal-info a:hover{
+    text-decoration: underline;
+
+}
+
+.container-catalog a:hover {
+    text-decoration: underline;
+
+}
 
 /* !UTILITY */
 
@@ -70,8 +80,6 @@ a {
     font-size: 0.9rem;
     font-weight: 600;
 }
-
-
 
 /* TAG DISCOUNT */
 
@@ -160,7 +168,6 @@ content: url(../img/4b.webp);
 
 /* HEADER */
 
-
 header{
     background-color: #FF6900;
     align-items: center;
@@ -190,6 +197,7 @@ header{
 }
 
 .section-user i {
+    font-size: 1rem;
     padding: 0 5px;
     color: white;
 }
@@ -218,7 +226,9 @@ header{
     font-size: 1.5rem;
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 0px;
+    background-color: white;
+    padding: 10px 15px;
 }
 
 .info-cat{
@@ -267,4 +277,8 @@ footer{
 .social i{
     font-size: 1.5rem;
     padding-right: 8px;
+}
+
+.social a {
+    color: white;
 }
