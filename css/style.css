@@ -39,7 +39,7 @@ a {
 }
 
 .c-center{
-    width: 1200px;
+    width: 1080px;
     margin: 0 auto;
 }
 
@@ -175,6 +175,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    box-shadow: 0 1px 3px #666;
     z-index: 1;
 }
 
