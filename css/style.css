@@ -185,9 +185,14 @@ header{
     align-items: center;
 }
 
+.container-header > *{
+    flex-basis: calc(100% / 3);
+}
+
 .logo img{
     height: 30px;
     display: block;  /* ALIGN LOGO */
+     margin: 0 auto;  /*CENRARE LOGO DENTRO AL PROPRIO CONTENITORE */
 }
 
 .department a {
@@ -197,10 +202,15 @@ header{
     padding: 0 10px;
 }
 
+.section-user{
+    justify-content: flex-end;
+}
+
 .section-user i {
     font-size: 1rem;
     padding: 0 5px;
     color: white;
+
 }
 
 /* MAIN - CATALOG */
